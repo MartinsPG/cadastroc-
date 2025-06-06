@@ -1,0 +1,46 @@
+﻿[Início]
+    ↓
+[Definir Escopo]
+    - Cadastro de Clientes
+    - Cadastro de Produtos
+    - Consultas e Listagens
+    ↓
+[Modelagem dos Dados]
+    - Definir estrutura Cliente
+        (Ex.: Nome, CPF/CNPJ, Endereço, Telefone)c
+    - Definir estrutura Produto
+        (Ex.: Código, Descrição, Preço, Estoque)
+    ↓
+[Definir Persistência]
+    - Arquivos (JSON, TXT, CSV) 
+      ou 
+    - Banco de dados simples (SQLite, por exemplo)
+    ↓
+[Planejar Funcionalidades]
+    - Menu Principal
+        → 1. Cadastrar Cliente
+        → 2. Cadastrar Produto
+        → 3. Listar Clientes
+        → 4. Listar Produtos
+        → 5. Buscar Cliente/Produto
+        → 6. Sair
+    ↓
+[Programar Funcionalidades]
+    - Criar funções para:
+        → Inserir Dados
+        → Editar Dados
+        → Excluir Dados
+        → Listar Dados
+        → Salvar e Ler do Arquivo/Banco
+    ↓
+[Testar]
+    - Inserção correta
+    - Listagem funcionando
+    - Busca funcionando
+    - Dados persistindo corretamente
+    ↓
+[Finalizar MVP]
+    - Sistema operando no console
+    - Pronto para melhorias futuras
+    ↓
+[Fim]
